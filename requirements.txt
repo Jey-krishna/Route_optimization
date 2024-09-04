@@ -4,6 +4,6 @@ seaborn
 matplotlib
 numpy
 plotly
-sklearn
+scikit-learn
 PIL
 dash
