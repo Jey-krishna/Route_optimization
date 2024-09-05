@@ -150,7 +150,6 @@ elif nav == 'Prediction':
     input_data2 = input_data.drop(columns='Geometric_Altitude')
     input_data3 = input_data.drop(columns='Velocity')
 
-    st.write('Predict Barometric Altitude')
     prediction1 = LR1.predict(input_data1)
     prediction2 = LR2.predict(input_data2)
     prediction3 = LR3.predict(input_data3)
