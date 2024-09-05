@@ -7,7 +7,6 @@ import plotly.express as px
 from sklearn.linear_model import LinearRegression
 from dash.dependencies import Input, Output
 import plotly.graph_objs as go
-from PIL import Image
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
